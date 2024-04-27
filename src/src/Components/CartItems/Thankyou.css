@@ -1,0 +1,27 @@
+/* Thankyou.css */
+
+/* Center the content both horizontally and vertically */
+body {
+    display: flex;
+    justify-content: center; /* Horizontal centering */
+    align-items: center; /* Vertical centering */
+    min-height: 100vh; /* Full viewport height */
+    margin: 0; /* Remove default margin to ensure centering works correctly */
+  }
+  
+  /* Style the content within the component */
+  .container {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+  }
+  
